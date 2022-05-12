@@ -18,19 +18,19 @@ void setup()
 //Checks which pin is pulled high and outputs index to serial to be read by python script
 void loop()
 {
-    String out = '';
+    String out = "";
 
     if(A_pin == HIGH)
-        out += 'A'
+        out += 'A';
 
     if(B_Pin == HIGH)
-        out += 'B'
+        out += 'B';
     
     if(C_Pin == HIGH)
-        out += 'C'
+        out += 'C';
 
     if(D_Pin == HIGH)
-        out += 'D'
+        out += 'D';
 
-    Serial.println(out + '\n')
+    Serial.println(out + '\n');
 }
